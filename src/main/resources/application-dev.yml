@@ -1,0 +1,21 @@
+#服务配置
+server:
+  port: 8081
+  servlet:
+    context-path: /
+
+#字符编码
+spring:
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
+  datasource:
+    username: yxcd
+    password: Sgcc_1234
+    url: jdbc:mysql://172.169.101.107:3306/yxcd?useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+#mybatis
+mybatis:
+  mapper-locations: classpath:com/kd/personalstake/mapper/*.xml
