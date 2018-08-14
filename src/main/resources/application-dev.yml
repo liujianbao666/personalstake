@@ -12,9 +12,9 @@ spring:
       enabled: true
       force: true
   datasource:
-    username: yxcd
-    password: Sgcc_1234
-    url: jdbc:mysql://172.169.101.107:3306/yxcd?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/yxcd?useUnicode=true&characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
 #mybatis
 mybatis:
